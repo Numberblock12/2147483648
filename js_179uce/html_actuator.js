@@ -47,9 +47,9 @@ HTMLActuator.prototype.clearContainer = function (container) {
 };
 
 // Abbreviations: K M B T q Q s S O N D
-UD DD TD qD QD sD SD OD ND V TR QU QI Sx Sp
-Oc No Ce Du Te Qr Qn Se St Ot Nn Mil Mic
-Na Pi Fm At Zp Yc Xn (abbreviations by NO!)
+// UD DD TD qD QD sD SD OD ND V TR QU QI Sx Sp
+// Oc No Ce Du Te Qr Qn Se St Ot Nn Mil Mic
+// Na Pi Fm At Zp Yc Xn (abbreviations by NO!)
 HTMLActuator.prototype.addTile = function (tile) {
   var text=new Array(19);
   text[0] = "1";
