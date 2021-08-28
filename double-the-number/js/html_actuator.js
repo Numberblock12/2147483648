@@ -126,7 +126,7 @@ HTMLActuator.prototype.addTile = function (tile) {
     inner.textContent = Math.floor(tile.value / Math.pow(10, 30)) + "N";
   }
   if (tile.value >= Math.pow(10, 33)) {
-    inner.textContent = Math.floor(tile.value / Math.pow(10, 30)) + "D";
+    inner.textContent = Math.floor(tile.value / Math.pow(10, 33)) + "D";
   }
   if (tile.value < Math.pow(10, 4)) {
     inner.textContent = tile.value;
